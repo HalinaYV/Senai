@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int media;
+	
+	printf("media de uma aluno de 0 a 100");
+	scanf("%d", &media);
+	
+	if(media >=25){
+		printf("Aprovado");
+	}else{
+		printf("Reprovado");
+	}
+	return 0;
+}

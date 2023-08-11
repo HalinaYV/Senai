@@ -1,0 +1,74 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 aula 03 LIMA</title>
+</head>
+
+<body>
+<hr>
+<h1>Formulário</h1>
+
+<div>
+
+
+<fieldset>
+    <form>
+        <h3>Dados pessoais</h3>
+        <!-- <div style="padding-left: 9.5;padding-right: 4.5;padding-bottom: 1.5;"> -->
+        <label style="font-size: 20px;"><b>Nome:</b></label>
+        <input type="text"><br/><p></p>
+        <label style="font-size: 19px;"><b>Endereço:</b></label>
+        <input type="text"><br/><p></p>
+        <label style="font-size: 19px;"><b>Cidade:</b></label>
+        <input tystyle="font-size: 20px;"type="text" placeholder=" "><br/><p></p>
+        <label style="font-size: 20px;"><b>Estado</b></label>
+        <select class="form-control" id="id="gridCheck>
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+        </select>
+    </form>
+</fieldset><br/>
+
+<fieldset>
+    <form>
+        <h3>Dados profissionais</h3><p></p>
+        <h3>Natureza do Cargo</h3>
+    <input type="radio" name= "Tipo" value="t">Gerência</input>
+    <input type="radio" name= "Tipo" value="p">Financeiro</input>
+    <input type="radio" name= "Tipo" value="p">Recepção</input>
+    <input type="radio" name= "Tipo" value="p">Administrativo</input>
+    <input type="radio" name= "Tipo" value="a">Jurídico</input><br/><br/>
+
+<h3>Área de Interesse</h3>
+    <input type="checkbox" name= "Tipo" value="doc">Computação</input>
+    <input type="checkbox" name= "Tipo" value="doc">Biologia</input>
+    <input type="checkbox" name= "Tipo" value="doc">Meio Ambiente</input>
+    <input type="checkbox" name= "Tipo" value="doc">Engenharia</input>
+    <input type="checkbox" name= "Tipo" value="doc">História</input><br/><p></p>
+
+    <label style="font-size: 19px;"><b>Mini-currículo:</b></label>
+    <textarea name="txtArea" rows="15" cols="110"></textarea><br/>
+
+    </form>
+</fieldset>
+</div>
+
+<div>
+</p>
+    
+    <input type="Submit" Submit="Enviar" placeholder="Enviar">
+    <input type="Reset" Submit="Limpar" aria-placeholder="Limpar">
+
+</div>
+<hr>
+
+    <center>Senai SP - Jaguariúna</center>
+
+<hr>
+
+ <footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+        <title>Lista de exercícios</title>
+        <link rel="stylesheet" type="text/css" href="pag1.css"/>
+    </head>
+        <body>
+                <p style="text-decoration:underline; text-align: right;">Próxima página</p>
+                <p style="font-size:xx-large;">Lista de exercícios</p>
+                <p style="font-size:x-large;">Página 1</p>
+               
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+                
+                <ul>
+                    <a>item 1</a>
+                    <a>item 2</a>
+                    <a>item 3</a>
+                    <a>item 4</a>
+                    <a>item 5</a>
+                </ul>
+
+                <ol>
+                    <td>item 1</td>
+                    <td>item 2</td>
+                    <td>item 3</td>
+                    <td>item 4</td>
+                    <td>item 5</td>
+                </ol>
+
+        </body>
+</html>

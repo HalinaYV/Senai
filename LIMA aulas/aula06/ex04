@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+        <title>Lista de exercícios</title>
+        <link rel="stylesheet" type="text/css" href="cores2.css"
+    </head>
+    <body>
+        <p style="text-decoration:underline; text-align: right; font-family: Arial, Helvetica, sans-serif;">Próxima página</p>
+                <p style="font-size:xx-large; font-family: Arial, Helvetica, sans-serif;">Lista de exercícios</p>
+                <p style="font-size:x-large; font-family: Arial, Helvetica, sans-serif;">Página 4</p>
+
+                <main>
+                    <div class="red"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                </main>
+    </body>
+    </html>
+
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.red {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.green {
+    width: 100vw;
+    height: 100vh;
+    background-color: lime;
+}
+
+.blue {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}

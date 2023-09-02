@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+        <title>Lista de exercícios</title>
+        <link rel="stylesheet" type="text/css" href="cores3.css"
+    </head>
+    <body>
+        <p style="text-decoration:underline; text-align: right; font-family: Arial, Helvetica, sans-serif;">Próxima página</p>
+                <p style="font-size:xx-large; font-family: Arial, Helvetica, sans-serif;">Lista de exercícios</p>
+                <p style="font-size:x-large; font-family: Arial, Helvetica, sans-serif;">Página 5</p>
+
+                <main>
+                    <div class="fileira1">
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+            
+                    <div class="fileira2">
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </main>
+    </body>
+    </html>
+
+    .red {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.green {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: lime;
+}
+
+.blue {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.fileira1 div {
+    margin: 10px;
+}
+
+.fileira2 {
+    display: flex;
+}
+
+.fileira2 div {
+    margin: 10px;
+}

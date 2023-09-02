@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+        <title>Lista de exercícios</title>
+        <link rel="stylesheet" type="text/css" href="tabela.css" href="pag1.css"
+    </head>
+    <body>
+        <p style="text-decoration:underline; text-align: right; font-family: Arial, Helvetica, sans-serif;">Próxima página</p>
+     </body>
+
+     <body>
+                <p style="font-size:xx-large; font-family: Arial, Helvetica, sans-serif;">Lista de exercícios</p>
+                <p style="font-size:x-large; font-family: Arial, Helvetica, sans-serif;">Página 2</p>
+    
+        <main>
+            <table>
+                <thead>
+                    <tr style="font-family: Arial, Helvetica, sans-serif;">
+                        <th>Nome</th>
+                        <th class="curso">Curso</th>
+                        <th>Turma</th>
+                        <th>Contato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr >
+                        <td>Fulano</td>
+                        <td class="curso">Desenvolvimento de Sistemas</td>
+                        <td>1 Semestre</td>
+                        <td>(19) 1234-4321</td>
+                    </tr>
+                    <tr>
+                        <td>Cicrano</td>
+                        <td class="curso">Eletronica </td>
+                        <td>2 Semestre</td>
+                        <td>(19) 4567-7890</td>
+                    </tr>
+                    <tr>
+                        <td>Beltrano</td>
+                        <td class="curso">Mecatronica</td>
+                        <td>1 Semestre</td>
+                        <td>(19) 7890-1234</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+    </html>

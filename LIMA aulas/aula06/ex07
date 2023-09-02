@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device=width,initial-scale=1.0" />
+        <title>Lista de exercícios</title>
+        <link rel="stylesheet" type="text/css" href="hotpattrn.css"
+    </head>
+    <body>
+        <p style="text-decoration:underline; text-align: right; font-family: Arial, Helvetica, sans-serif;">Próxima página</p>
+        <p style="font-size:xx-large; font-family: Arial, Helvetica, sans-serif;">Lista de exercícios</p>
+        <p style="font-size:x-large; font-family: Arial, Helvetica, sans-serif;">Página 7</p>
+    <main>
+        <div class="fileira1"></div>
+        <div class="fileira2">
+            <div class="coluna1"></div>
+            <div class="coluna2"></div>
+        </div>
+        <div class="fileira3"></div>
+    </main>
+    </body>
+</html>
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fileira1 {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(201, 72, 72);
+}
+
+.fileira2 {
+    display: flex;
+}
+
+.fileira2 .coluna1 {
+    width: 20vw;
+    height: 60vh;
+    background-color:rosybrown;
+}
+
+.fileira2 .coluna2 {
+    width: 80vw;
+    height: 60vh;
+    background-color:rgb(114, 46, 46);
+}
+
+.fileira3 {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(138, 59, 59);
+}

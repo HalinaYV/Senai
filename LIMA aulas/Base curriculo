@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Currículo Fictício</title>
+	</head>
+	<body>
+		<hr>
+		<center><h1>Currículo Fulano de Sobrenome Tal</h1></center>
+		<hr/>
+		<center><h3>Estado civil: Casado | idade x | Brasileiro</h3></center>
+		<hr>
+		<center><h4>E-mail: xxxxxxx@outlook.com</h4><center>
+		<h5>Formação Acadêmica x | Ensino Médio completo | Técnico em administração</h5>
+		<hr>
+		<center><h5>Participação nas eletivas:<br>* Ciência Forense;<br>* Noções de Logística;<br>* Vida animal;</h5></center>
+		<hr>
+		<center><h5>Hard Skils<br>* Fluência em inglês;<br>* Básico em russo;<br>* PacoteOffice básico.</h5></center>
+		<center><h5>Soft Skills<br> * Resiliência e flexibilidade interpessoal;<br>* Pensamento crítico com abordagem respeitosa;<br>* Adaptabilidade;<br> * Criatividade.</h5></center>
+		<hr>
+		<center><h4>Experiência<br>* 1 ano na empresa xxxxxx;<br>* Freelance Experimental.</h4></center>
+		<hr>
+	</body>
+</html>

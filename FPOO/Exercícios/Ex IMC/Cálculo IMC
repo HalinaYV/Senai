@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<locale.h>
+#include<string.h>
+int main(){
+	setlocale(LC_ALL, "");
+	
+	// enunciado: Um consultório médico necessita de um programa de computador para calcular o Índice de Massa Corporal (IMC) de seus pacientes de forma rápida e precisa. O IMC é uma medida utilizada para avaliar a relação entre o peso e a altura de uma pessoa, sendo um indicativo importante para avaliar a saúde e o estado nutricional.
+	
+	// variaveis
+	char encerrar[3];
+	char nome [30]; //inserções de nome do cliente e adiantamento do programa para continuar ou parar;
+	float peso, altura; //inserções da info do cliente, altura e peso para cálculo do IMC;
+	float alturaAoQuadrado;
+	float IMC;
+	
+	do{	
+		// entrada // processamento
+		printf("Insira seu primeiro nome: \n");
+		scanf ("%s", &nome);
+		
+		printf("insira seu peso atual e altura em metros: \n");
+		scanf ("%f %f", &peso, &altura);
+		
+		alturaAoQuadrado = altura * altura; // cálculo manual do quadrado da altura para acrescentar no cálculo correto do IMC, que seria a divisão do peso pela altura elevada ao quadrado do cliente;
+		IMC = peso / alturaAoQuadrado;	 
+		
+		// saída
+		printf("%s, seu IMC é de: %.2f \n", nome, IMC);
+
+		if (IMC >= 40){
+			printf("%s, seu IMC é o de obesidade mórbida (tipo III)",nome);
+		} else if (IMC >= 35){
+			printf("%s, seu IMC é o de obesidade severa (tipo II)",nome);
+		} else if (IMC >= 30){
+			printf("%s, seu IMC é o de obesidade (tipo I)",nome);
+		} else if (IMC >= 25){
+			printf("%s, você está acima do seu peso ideal",nome);
+		} else if (IMC >= 18,5){
+			printf("%s, seu IMC está no peso ideal para sua altura, desconsiderando idade e mobilidade costumeiras",nome);
+		} else {
+			printf("%s, seu IMC está MUITO abaixo do peso ideal",nome);	
+		}
+		// pergunta para encerramento ou continuação do programa;
+	
+		printf("\n\nDeseja continuar o programa? Digite sim ou não: \n");
+		scanf("%s", &encerrar);
+		
+	}while(strcmp(encerrar, "sim") == 0);
+	return 0;
+}

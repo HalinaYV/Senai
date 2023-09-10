@@ -1,0 +1,108 @@
+#include <stdio.h>
+int main(){
+    int i = 0;
+    
+    while (i <= 1000){
+    	printf("Willkommen \n");
+    	i = i + 1;
+	}
+    
+    return 0;
+}
+
+EX 1
+
+#include <stdio.h>
+int main(){
+    int contador;
+    
+    for (contador= 20; contador>=1; contador--){
+    	printf("%d \n", contador);
+	}
+
+    
+    return 0;
+}
+
+EX 2
+
+#include <stdio.h>
+int main(){
+    int contador;
+    
+    for (contador= 0; contador<=20; contador+=2){
+    	printf("%d \n", contador);
+   
+	}
+
+    
+    return 0;
+}
+
+EX 3
+
+#include <stdio.h>
+int main(){
+    int contador;
+    
+    for (contador= 20; contador>=0; contador-=4){
+    	printf("%d \n", contador);
+	}
+	
+    return 0;
+}
+
+EX 4
+
+#include <stdio.h>
+int main(){
+    
+    int i;
+    do{
+    	printf("digite um numero inteiro");
+    	scanf("%d",&i);
+	}while(i !=4);
+	
+    return 0;
+}
+
+EX 5
+
+#include <stdio.h>
+int main(){
+    
+    int i;
+    do{
+    	printf("digite um numero inteiro");
+    	scanf("%d",&i);
+    	printf("o quadrado e %d", i * i);
+	}while(i !=4);
+	
+    return 0;
+}
+
+EX 6
+
+#include <stdio.h>
+int main(){
+    
+    int i;
+    do{
+    	printf("digite um numero inteiro");
+    	scanf("%d",&i);
+    	printf("o quadrado e %d", i * i);
+	}while(i !=4);
+	
+    return 0;
+}
+
+EX EMEMPLO 2 DE 1000 FRASES
+
+#include <stdio.h>
+int main(){
+    int contador;
+    for(contador=1; contador<=1000; contador++){
+		printf("Willkommen \n");
+	}
+    return 0;
+}

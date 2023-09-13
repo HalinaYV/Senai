@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<locale.h>
+
+//exercício 01. crie uma função que calcule a média de 3 notas
+
+int media(int a, int b, int c){
+	return (a + b + c) / 3;
+}
+int main(){
+	setlocale(LC_ALL,"");
+	int x = (5 + 2 + 5) / 3;
+	printf("a media das 3 notas é igual a %d", x);
+	return 0;
+}
+

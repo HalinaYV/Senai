@@ -1,5 +1,4 @@
 # Senai
-|/q|
 |C|
 |-|
 |HTML|
